@@ -1,0 +1,184 @@
+
+/* Title Section */
+
+#title{
+
+  background-color: #19253b59;
+  box-shadow: 0 0 36px 0;
+  backdrop-filter: blur(3px);
+}
+
+.container-fluid{
+
+  padding :  5px 30px 5px;
+}
+
+h1 {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+
+}
+
+
+
+body {
+           background-image: url('images/back-image.jpg');
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           height: 100%;
+       }
+
+
+/* navbar */
+
+  .navbar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 80%;
+      margin: auto;
+      padding: 1.2rem 0rem;
+  }
+
+  .navbar-brand {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #fff;
+      text-decoration: none;
+  }
+
+
+
+  .navbar-nav{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      padding: 0;
+      background-color: transparent;
+      overflow: hidden;
+  }
+
+  .nav-item{
+      padding: 0rem 1.1rem;
+      float: left;
+  }
+
+  .nav-link{
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: .7px;
+  }
+
+  .nav-link:hover {
+      color: #91b2ff;
+      transition: all .3s ease-in-out
+  }
+
+  .button {
+      display: flex;
+      gap: 1.5rem;
+      padding-left: 3%;
+  }
+
+  .button button {
+      font-weight: 500;
+      color: #fff;
+      border: 1px solid #fff;
+      background-color: transparent;
+      padding: .3rem 1rem;
+      border-radius: 20%;
+      cursor: pointer;
+  }
+
+  .button button:hover {
+      background-color: #fff;
+      color: #152939;
+      transition: all .3s ease-in-out;
+  }
+
+
+/
+
+
+
+/* Feature Section */
+
+#features{
+  padding: 7% 15%;
+
+
+}
+
+.centre{
+  /* text-align: center; */
+  color: #fff;
+  padding : 5% 10%;
+  font-size: 2rem;
+
+}
+
+h1{
+  text-align: center;
+}
+.login-box{
+  padding: 5% 15%;
+  text-align: center;
+  color: #fff;
+}
+.container{
+  padding: 5%;
+}
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.input{
+  border-radius: 25px;
+  background: url('images/back-image.jpg');
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 30px;
+  height: 40px;
+}
+
+.btn{
+    padding: .3rem 1rem;
+    margin-top: 4%;
+}
+
+
+/* footer */
+
+#footer{
+  text-align: center;
+
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
